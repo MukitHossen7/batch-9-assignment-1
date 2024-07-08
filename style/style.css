@@ -153,18 +153,21 @@ margin-bottom: 48px;
     margin-top: 120px;
     border-radius: 16px;
       background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 .info-container .info-area{
     width: 550px;
     height:273px ;
-    border: 2px solid red;
 }
-/* .info-area{
+.info-area .info-text{
     display: flex;
     justify-content: center;
     align-items: center;
-     flex-direction: row;
-} */
+     flex-direction: column;
+    
+}
 .info-container .info-text .info-color{
     color: rgb(255, 0, 0);
 }
@@ -172,8 +175,21 @@ margin-bottom: 48px;
 font-family: Inter;
 font-size: 32px;
 font-weight: 600;
-text-align: center;
 text-transform: capitalize;
+margin-top: 8px;
+margin-bottom: 10px;
 }
+.info-container .info-text .info-btn button{
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 16px 32px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 46px;
 
+}
   /* Info Section CSS End  */
