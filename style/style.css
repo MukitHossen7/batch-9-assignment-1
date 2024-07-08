@@ -1,0 +1,45 @@
+
+  /* Common CSS style Start */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ /* Common CSS style End */
+
+ /* Header Banner CSS Style Start */
+.banner-area{
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-image: url("../images/Banner\ Image.png") ,linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 80%);;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 16px;
+     background-blend-mode: overlay;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.banner-area .banner-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+}
+.banner-area .banner-head{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+}
+ /* Header Banner CSS Style Start */
