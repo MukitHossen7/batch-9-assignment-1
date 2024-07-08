@@ -386,3 +386,15 @@ margin-bottom: 57px;
 
 }
   /* Gift Section CSS End  */
+
+   /* Subscribe Section CSS Start */
+.subscribe-container{
+    width: 1320px;
+    height:616px;
+    margin: 0 auto;
+    margin-top: 117px;
+    border:3px solid red;
+}
+
+
+   /* Subscribe Section CSS End */
