@@ -488,4 +488,26 @@ font-size: 24px;
 font-weight: 500;
 text-align: left;
 }
+.footer-container .footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 47px;
+}
+.footer-container .footer-icons .icon{
+    padding-right: 24px;
+}
+.footer-container .footer-text{
+    display: flex;
+    margin: 50px 140px 120px 140px;
+    justify-content: space-between;
+}
+.footer-container .footer-text span {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-align: left;
+}
    /* Footer CSS Style End */
