@@ -43,3 +43,137 @@ font-weight: 900;
 text-align: center;
 }
  /* Header Banner CSS Style Start */
+
+ /* Discount Section CSS Start */
+
+.discount-container{
+    width:802px ;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+/* .discount-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.discount-area .off65{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.discount-area .discount-title h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.discount-area .discount-title h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+}
+.discount-area .offer-img{
+    width: 802px;
+    height: 500px;
+    margin-top: 48px;
+}
+.discount-area .offer-img img{
+    width: 100%;
+    height: 100%;
+}
+ /* Discount Section CSS End */
+
+  /* Midnight Section HTML Start  */
+.midnight-section{
+    width: 1320px;
+    height:600px ;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.midnight-section .midnight-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midnight-section .midnight-collom-text{
+        width: 645px;
+}
+.midnight-collom-text .midnight-btn{
+    color: rgb(255, 255, 255);
+    background-color: black;
+font-family: Inter;
+font-size: 20px;
+text-align: center;
+display: block;
+margin-left: 25px;
+text-transform: uppercase;
+border: none;
+}
+.midnight-section .midnight-collom-img{
+   width: 320px;
+   height: 465px;
+   margin-top: 68px;
+}
+.midnight-section .midnight-collom-text .midnight-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+/* text-align: left; */
+}
+.midnight-section .midnight-collom-text .midnight-description{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 48px;
+/* text-align: left; */
+}
+  /* Midnight Section HTML End  */
+
+  /* Info Section CSS Start  */
+.info-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+      background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  }
+.info-container .info-area{
+    width: 550px;
+    height:273px ;
+    border: 2px solid red;
+}
+/* .info-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: row;
+} */
+.info-container .info-text .info-color{
+    color: rgb(255, 0, 0);
+}
+.info-container .info-text p{
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+text-transform: capitalize;
+}
+
+  /* Info Section CSS End  */
